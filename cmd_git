@@ -3,8 +3,21 @@
 > git init
 :inicia repositório para versionamento git.
 
->git status
+> git status
 :indica estado dos arquivos: tracked ou untracked e mostra quais arquivos foram modificados
 
->git add arquivo
+> git add arquivo
 :adiciona arquivo ao estado de tracked
+
+> git commit -m "mensagem"
+:cria primeiro commit do arquivo e adiciona motivo do commit atraves da opcao curta -m
+
+> git log
+:mostra hitórico de commits
+
+>git remote add origin URL
+:adiciona repositorio remoto, o nome origin eh usado por padrao, mas eh apenas um apelido para o link
+podendo ser substituido por qualquer outro
+
+ 
+
