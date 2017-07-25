@@ -1,0 +1,10 @@
+############# COMANDOS BASICOS GIT #################
+
+> git init
+:inicia repositório para versionamento git.
+
+>git status
+:indica estado dos arquivos: tracked ou untracked e mostra quais arquivos foram modificados
+
+>git add arquivo
+:adiciona arquivo ao estado de tracked
