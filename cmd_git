@@ -13,11 +13,18 @@
 :cria primeiro commit do arquivo e adiciona motivo do commit atraves da opcao curta -m
 
 > git log
-:mostra hitórico de commits
+:mostra hitórico de commits.
 
->git remote add origin URL
+> git remote add origin URL
 :adiciona repositorio remoto, o nome origin eh usado por padrao, mas eh apenas um apelido para o link
-podendo ser substituido por qualquer outro
+podendo ser substituido por qualquer outro.
+
+> git push origin master
+:atualiza repositorio remoto com os commits locais, origin = nome do repositorio remoto,
+master = nome da branch onde o commit será atualizado.
+
+
+
 
  
 
