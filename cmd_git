@@ -28,7 +28,8 @@ podendo ser substituido por qualquer outro.
 :atualiza repositorio remoto com os commits locais, origin = nome do repositorio remoto,
 master = nome da branch onde o commit será atualizado.
 
-
+> git clone URL
+:clona um repositorio com mesmo nome daquele indicado pela url.
 
 
  
