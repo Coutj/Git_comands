@@ -50,4 +50,11 @@ Problema: precisamos indicar ao git que a branch nomeDaBranch, no repositorio ex
 nomeDaBranch. entao utilizamos git push -u origin nomeDaBranch.
 
 > git branch -t minhaBranch origin/nomeDaBranch
-:copia uma branch remota para a maquina local 
+:copia uma branch remota para a maquina local
+
+> git chekout nomeDoArquivo
+:volta o arquivo para ultimo estagio de commit.
+
+>git reset HEAD nomeDoArquivo
+:retira o arquivo do estado de commit.
+ 
