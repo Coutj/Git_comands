@@ -29,8 +29,24 @@ podendo ser substituido por qualquer outro.
 master = nome da branch onde o commit será atualizado.
 
 > git clone URL
-:clona um repositorio com mesmo nome daquele indicado pela url.
-
-
+:clona um repositorio com mesmo nome daquele indicado pela url. 
  
+> git pull origin master
+:atualiza diretorio local com as modificacoes feitas no repositorio remoto
+origin = apelido para repositorio remoto, master = brach
+
+> git branch
+:lista as branchs na maquina atual
+
+> git branch nomeDaBranch
+:cria nova branch na maquina local
+
+> git checkout nomeDaBranch
+:muda de branch
+
+> git push origin nomeDabranch
+:adiciona nova branch no repositorio remoto.
+Problema: precisamos indicar ao git que a branch nomeDaBranch, no repositorio externo, eh igual à branch local
+nomeDaBranch. entao utilizamos git push -u origin nomeDaBranch.
+
 
