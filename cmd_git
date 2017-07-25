@@ -1,5 +1,10 @@
 ############# COMANDOS BASICOS GIT #################
 
+> git config --global user.name "user.name"
+> git config --global user.email seu@email.com
+> git config --global core.editor vim		//configura editor de texto principal
+> git config --list		//lista de configuracoes utilizadas 
+
 > git init
 :inicia repositório para versionamento git.
 
