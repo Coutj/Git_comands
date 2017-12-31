@@ -44,6 +44,12 @@ origin = apelido para repositorio remoto, master = brach
 > git checkout nomeDaBranch
 :muda de branch
 
+> git checkout -b nomeDaBranch
+:cria e muda de branch
+
+>git merge nomeDaBranch
+:adiciona nomeDaBranch a branch atual
+
 > git push origin nomeDabranch
 :adiciona nova branch no repositorio remoto.
 Problema: precisamos indicar ao git que a branch nomeDaBranch, no repositorio externo, eh igual à branch local
