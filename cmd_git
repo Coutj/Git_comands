@@ -64,3 +64,8 @@ nomeDaBranch. entao utilizamos git push -u origin nomeDaBranch.
 >git reset HEAD nomeDoArquivo
 :retira o arquivo do estado de commit.
  
+>git rm nomeDoArquivo
+:utilizar a funcao de remocao do git para informar que o arquivo foi removido
+
+>git mv nomeDoArquivo Destino
+:utilizar a funcao de mover do git para que o git saiba qual era o arquivo de origem
