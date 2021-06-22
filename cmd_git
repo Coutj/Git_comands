@@ -61,6 +61,9 @@ nomeDaBranch. entao utilizamos git push -u origin nomeDaBranch.
 > git chekout nomeDoArquivo
 :volta o arquivo para ultimo estagio de commit.
 
+> git checkout branchSecundaria caminho/arquivo/aCopiar
+:copia um arquivo de uma branch secundaria (development) pra branch atual
+
 >git reset HEAD nomeDoArquivo
 :retira o arquivo do estado de commit.
  
